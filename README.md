@@ -1,4 +1,4 @@
-# Homebrew Flutter 
+# Homebrew Flutter
 
 Super-easy two-step [Flutter](https://flutter.dev) installation with [Homebrew](https://brew.sh) :sunglasses:
 
@@ -9,7 +9,7 @@ Afterwards you can simply use `flutter channel [master|dev|beta|stable]` to swit
 ## Installing
 
 ```
-brew tap flschweiger/flutter
+brew tap adityastic/flutter
 brew cask install flutter
 ```
 
@@ -18,9 +18,10 @@ And voilà! You're done :tada:
 FYI: You will find your Flutter installation here: `/usr/local/Caskroom/flutter/latest/flutter`.
 
 ## Uninstalling
+
 ```
 brew cask uninstall flutter
-brew untap flschweiger/flutter
+brew untap adityastic/flutter
 ```
 
 That's already it :put_litter_in_its_place:
